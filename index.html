@@ -13,58 +13,60 @@
        /* height:1000%; */
        background-image:url('Ellipse 3.png'),url('Ellipse 7.png'),url('Ellipse 8.png'),url('Ellipse 9.png');
        background-repeat:no-repeat;
-       background-size:80px,80px,80px,80px;
+       background-size:100px;
        background-attachment:fixed;
-       background-position-x: -30px,850px,-60px,1500px;
-       background-position-y: -30px,-50px,200px,250px;
+       background-position-x: -30px,right,-60px,300px;
+       background-position-y: -30px,-50px,280px,280px;
    }
    .a2{
        color:yellow;
    }
-   ul{
-       list-style-type:none;
-   }
-
+  h3,small{
+    position: sticky;
+    top:0;
+  }
 </style>
     <title>My Taito</title>
     <link rel="icon" href="Logo.png">
   </head>
-  <body>
-<div class="jumbotron bg-dark">
+  <body class="bg-dark">
+<div class="jumbotron  bg-dark">
     <!-- <img class="a1" src="Ellipse 3.png" alt="" width=200px> -->
-    <div class="container text-center">
+    <div class="container  text-center">
         <img src="Logo.png" alt="" width=200px>
         <br><br>
-        <h3 class="text-white"><i>COMING SOON</i></h3>
-        <h4 class="text-white">Our website is under construction,<span class="text-danger">follow</span> or <span class="a2">contact</span> us for more updates!</h4>
+      <h3 class="text-white sm-12"><i>COMING SOON</i></h3>
+        <h4 class="text-white sm-12">
+            <small>
+            Our website is under construction, <span class="text-danger">follow</span> or <span class="a2">
+                contact</span> us for more updates!
+            </small>
+            </h4>
     </div>
+<div class="jumbotron bg-dark">
 
-<div class="container-fluid m-5 text-white  bg-dark">
- 
-    <ul class="d-flex justify-content-around">
-        <li>
-            <a class="text-white" href="https://instagram.com/mytaito" id="">
-               
-                <img src="Instagaram.png" alt="" width=20px>
-           mytaito
-            </a>  
-        </li>
-        <li>
-            <a class="text-white" href="https://www.linkedin.com/company/mytaito" id="">
-               
-                <img src="Linkdin.png" alt="" width=20px>
-           mytaito
-            </a>  
-        </li>
-        <li>
-            <a class="text-white" href="contact@mytaito.com" id="">contact@mytaito.com</a>
-        </li>
-        <li>
-            <a class="text-white" href="" id="">
-                9550869048
-            </a>
-        </li>
-    </ul>
+</div>
+<div class="jumbotron bg-dark">
+    
+</div>
+<div class="container-fluid text-white d-flex justify-content-between" >
+<a href="https://instagram.com/mytaito" class="text-white">
+    <img  src="Instagaram.png" alt="" width="30px">
+    <!-- <img src="/Linkdin.png" alt="" width=30px> -->
+    <small>mytaito</small>
+</a>
+<a href="https://www.linkedin.com/company/mytaito" class="text-white">
+    <img src="Linkdin.png" alt="" width=30px>
+    <small>mytaito</small>
+</a>
+<a href="https://accounts.google.com" class="text-white" >
+    <img src="Mail Icon.png" alt="" width="30px">
+   <small> contact@mytaito.com &nbsp;&nbsp;</small>
+</a>
+<a href="" class="text-white">
+    <img src="Phone Icon.png" alt="" width="30px">
+   <small>&nbsp;&nbsp;9550869048</small>
+</a>
 </div>
 </div>
     <!-- Optional JavaScript -->
